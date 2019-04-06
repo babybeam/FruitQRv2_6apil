@@ -20,38 +20,92 @@ public class MenuDrawerFragment extends Fragment {
 
     //    Admin
     private int[] iconAdmin = {
-            R.drawable.ic_action_home, R.drawable.ic_action_home, R.drawable.ic_action_home, R.drawable.ic_action_home,
-            R.drawable.ic_action_home, R.drawable.ic_action_home, R.drawable.ic_action_home, R.drawable.ic_action_home,
-            R.drawable.ic_action_home, R.drawable.ic_action_home
+            R.drawable.ic_action_home,
+            R.drawable.ic_action_qrb,
+            R.drawable.ic_action_framer,
+            R.drawable.ic_action_listframer,
+            R.drawable.ic_action_product,
+            R.drawable.ic_action_listproduct,
+            R.drawable.ic_action_register,
+            R.drawable.ic_action_aboutme,
+            R.drawable.ic_action_aboutme,
+            R.drawable.ic_action_exit
     };
     private String[] titleAdmin = {
-            "หน้าหลัก1", "สแกน QR Code", "รายการผลผลิต", "เพิ่มรายการผลผลิต", "รายการผลิตภัณฑ์",
-            "เพิ่มรายการผลิตภัณฑ์", "เพิ่มสมาชิก", "ข้อมูลส่วนตัว", "เกี่ยวกับเรา", "ออกจากระบบ"
+            "หน้าหลัก1",
+            "สแกน QR Code",
+            "รายการผลผลิต",
+            "เพิ่มรายการผลผลิต",
+            "รายการผลิตภัณฑ์",
+            "เพิ่มรายการผลิตภัณฑ์",
+            "เพิ่มสมาชิก",
+            "ข้อมูลส่วนตัว",
+            "เกี่ยวกับเรา",
+            "ออกจากระบบ"
     };
 
     //    Framer
     private int[] iconFramer = {
-            R.drawable.ic_action_home,  R.drawable.ic_action_home,  R.drawable.ic_action_home, R.drawable.ic_action_home,
-            R.drawable.ic_action_home,  R.drawable.ic_action_home, R.drawable.ic_action_home};
+            R.drawable.ic_action_home,
+            R.drawable.ic_action_qrb,
+            R.drawable.ic_action_framer,
+            R.drawable.ic_action_listframer,
+            R.drawable.ic_action_aboutme,
+            R.drawable.ic_action_aboutme,
+            R.drawable.ic_action_exit
+    };
 
     private String[] titleFramer = {
-            "หน้าหลัก2", "สแกน QR Code", "รายการผลผลิต", "เพิ่มรายการผลผลิต", "ข้อมูลส่วนตัว", "เกี่ยวกับเรา", "ออกจากระบบ"};
+            "หน้าหลัก2",
+            "สแกน QR Code",
+            "รายการผลผลิต",
+            "เพิ่มรายการผลผลิต",
+            "ข้อมูลส่วนตัว",
+            "เกี่ยวกับเรา",
+            "ออกจากระบบ"
+    };
 
     //    Product
     private int[] iconProduce = {
-            R.drawable.ic_action_home,  R.drawable.ic_action_home,  R.drawable.ic_action_home, R.drawable.ic_action_home,
-            R.drawable.ic_action_home,  R.drawable.ic_action_home, R.drawable.ic_action_home};
+            R.drawable.ic_action_home,
+            R.drawable.ic_action_qrb,
+            R.drawable.ic_action_product,
+            R.drawable.ic_action_listproduct,
+            R.drawable.ic_action_aboutme,
+            R.drawable.ic_action_aboutme,
+            R.drawable.ic_action_exit
+    };
     private String[] titleProduct = {
-            "หน้าหลัก3", "สแกน QR Code", "รายการผลิตภัณฑ์", "เพิ่มรายการผลิตภัณฑ์", "ข้อมูลส่วนตัว", "เกี่ยวกับเรา", "ออกจากระบบ"};
+            "หน้าหลัก3",
+            "สแกน QR Code",
+            "รายการผลิตภัณฑ์",
+            "เพิ่มรายการผลิตภัณฑ์",
+            "ข้อมูลส่วนตัว",
+            "เกี่ยวกับเรา",
+            "ออกจากระบบ"};
 
     //    Customer
     private int[] iconCustomer = {
-            R.drawable.ic_action_home, R.drawable.ic_action_home,R.drawable.ic_action_home,R.drawable.ic_action_home,
-            R.drawable.ic_action_home, R.drawable.ic_action_home,R.drawable.ic_action_home,R.drawable.ic_action_home,
-            R.drawable.ic_action_home};
+            R.drawable.ic_action_home,
+            R.drawable.ic_action_qrb,
+            R.drawable.ic_action_framer,
+            R.drawable.ic_action_listframer,
+            R.drawable.ic_action_product,
+            R.drawable.ic_action_listproduct,
+            R.drawable.ic_action_aboutme,
+            R.drawable.ic_action_aboutme,
+            R.drawable.ic_action_exit
+    };
     private String[] titleCustomer = {
-            "หน้าหลัก4", "สแกน QR Code", "รายการผลผลิต", "เพิ่มรายการผลผลิต", "รายการผลิตภัณฑ์",
-            "เพิ่มรายการผลิตภัณฑ์", "ข้อมูลส่วนตัว", "เกี่ยวกับเรา", "ออกจากระบบ"
+            "หน้าหลัก4",
+            "สแกน QR Code",
+            "รายการผลผลิต",
+            "เพิ่มรายการผลผลิต",
+            "รายการผลิตภัณฑ์",
+            "เพิ่มรายการผลิตภัณฑ์",
+            "ข้อมูลส่วนตัว",
+            "เกี่ยวกับเรา",
+            "ออกจากระบบ"
     };
 
 
